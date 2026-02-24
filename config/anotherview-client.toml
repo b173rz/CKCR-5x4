@@ -1,0 +1,9 @@
+
+["Anotherview settings"]
+	#Anotherview operating mode
+	mode = "RAY_CAST"
+	#RAYCAST mode ray length
+	ray_length = 3.0
+	#Will the mod ignore foliage?
+	ignore_foliage = true
+

@@ -1,0 +1,7 @@
+{
+    "name": "CRCK-5x4",
+    "version": "alpha-3.0",
+    "overrides": [
+        "config"
+    ]
+}

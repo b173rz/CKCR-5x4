@@ -1,0 +1,17 @@
+  {
+    "hostile":true,
+    "mob":"#minecraft:undead",
+    "dimension":"minecraft:end",
+    "hasstructure":true,
+    "spawntype":"structure",
+    "when": "onjoin",
+    "result":"default"
+  },
+
+    {
+    "hostile":true,
+    "dimension":"minecraft:overworld",
+    "spawntype":["spawner","mob_summoned","jockey","triggered","spawn_egg","command","event"],
+    "when": "onjoin",
+    "result":"default"
+  },

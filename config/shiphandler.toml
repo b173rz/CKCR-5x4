@@ -1,0 +1,14 @@
+
+[General]
+	#Allows Operators to register infinite ships.
+	"Infinite OP Ships" = true
+	#Make newly created ships automatically register to their owner.
+	"Auto Register Ships" = true
+	#The Maximum number of ships a player can register. -1 for no limit.
+	#Range: > -1
+	"Max ships" = -1
+	#The Maximum distance that will be used when looking for a player when a ship is created.
+	#NOTE: Large values may cause large amounts of lag!
+	#Range: > 1
+	"Max ship Find Distance" = 150
+

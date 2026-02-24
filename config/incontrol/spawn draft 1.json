@@ -1,0 +1,36 @@
+[
+  {
+    "mob":"minecraft:wolf",
+    "when":"onjoin",
+    "result":"default"
+  },
+  {
+    "mob":["minecraft:zombie","minecraft:skeleton","minecraft:husk","minecraft:stray","minecraft:drowned"],
+    "dimension":"minecraft:overworld",
+    "minheight":-3,
+    "maxheight":60,
+    "when": "onjoin",
+    "result":"default"
+  },
+  {
+    "mob":["minecraft:zombie","minecraft:skeleton","minecraft:husk","minecraft:stray","minecraft:drowned"],
+    "dimension":"minecraft:overworld",
+    "maxheight":-3,
+    "when": "onjoin",
+    "result":"deny"
+  },
+  {
+    "hostile":true,
+    "dimension":"minecraft:overworld",
+    "spawntype":["spawner","structure","mob_summoned","jockey","triggered","spawn_egg","command","event"],
+    "when": "onjoin",
+    "result":"default"
+  },
+  {
+    "hostile":"true",
+    "when": "onjoin",
+    "dimension": "minecraft:overworld",
+    "spawntype":"natural",
+    "result":"deny"
+  }
+]

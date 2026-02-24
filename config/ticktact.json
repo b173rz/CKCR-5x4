@@ -1,0 +1,34 @@
+{
+  "enableEntityGate": true,
+  "enableBEGate": true,
+  "enableVisibilityMultiplier": true,
+  "enableProjectileMixin": true,
+  "entitiesEnabled": true,
+  "blockEntitiesEnabled": true,
+  "distanceCulling": true,
+  "trackingCulling": true,
+  "minDistance": 6,
+  "blocksPerLevel": 64,
+  "blocksPerLevelDistance": 10,
+  "blocksPerLevelTracking": 10,
+  "blocksPerLevelViewport": 20,
+  "maxLevel": 20,
+  "blocksPerLevelBE": 32,
+  "stressMsptThreshold": 5.0,
+  "minDecreaseFactor": 0.25,
+  "budgetBlockEntities": 2000,
+  "budgetRandomTicks": 3000,
+  "maxSkipStreak": 20,
+  "dimensions": {
+    "minecraft:overworld": true,
+    "minecraft:the_nether": true,
+    "minecraft:the_end": true
+  },
+  "entityWhitelist": {
+    "minecraft:ender_pearl": false,
+    "minecraft:player": false,
+    "minecraft:arrow": false,
+    "minecraft:ender_dragon": false
+  },
+  "version": 3
+}
