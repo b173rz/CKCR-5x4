@@ -1,0 +1,16 @@
+#How many different sack types can one sack hold
+#Range: > 0
+maxSackTypes = 1
+#How many stacks a sack can hold by weight
+#Range: > 0
+maxSackWeightStacks = 4
+#How many separate stacks can be held in the sack
+#Range: > 0
+maxSackStacks = 64
+#How many mixed stacks of arrows the quiver can hold
+#Range: > 0
+maxQuiverOccupancyStacks = 8
+#How many separate stacks can be held in the quiver
+#Range: > 0
+maxQuiverStacks = 64
+

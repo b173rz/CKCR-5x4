@@ -1,5 +1,5 @@
 {
-	"disableMod": false,
+	"disableMod": true,
 	"disabledDimensions": [
 		"minecraft:the_nether"
 	],

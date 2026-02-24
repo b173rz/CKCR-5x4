@@ -2650,46 +2650,6 @@
             ]
         },
         {
-            "pakku_id": "1BQZlncP4TmeUzP4",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "better-resource-pack-sorting"
-            },
-            "name": {
-                "modrinth": "Better Resource Pack Sorting"
-            },
-            "id": {
-                "modrinth": "SpY2M2I9"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "better_resource_pack_sorting-mc1.20-1.0.0-build.3.jar",
-                    "mc_versions": [
-                        "1.20",
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/SpY2M2I9/versions/M72l40lq/better_resource_pack_sorting-mc1.20-1.0.0-build.3.jar",
-                    "id": "M72l40lq",
-                    "parent_id": "SpY2M2I9",
-                    "hashes": {
-                        "sha512": "35ae48e1a4b449d350c5710d0aa646c1a6ae5951b368015b27b7857a3b00d3df6d4ca1f67208ff020d1d047d46b28e57e9e2b438888becca72c63cc5f406ac61",
-                        "sha1": "7fe15d811081171d8cadc01c31829ba60ff31f3f"
-                    },
-                    "required_dependencies": [],
-                    "size": 47911,
-                    "date_published": "2023-06-27T21:04:37.356960Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "kF7wK9JOHM1I1Alv",
             "type": "MOD",
             "side": "SERVER",
@@ -8263,73 +8223,6 @@
             ]
         },
         {
-            "pakku_id": "ionnrFP4RO1hlWPT",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "curseforge": "draggable-lists",
-                "modrinth": "draggable-lists"
-            },
-            "name": {
-                "curseforge": "Draggable Lists",
-                "modrinth": "Draggable Lists"
-            },
-            "id": {
-                "curseforge": "522697",
-                "modrinth": "aLcHfalx"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "draggable_lists-mc1.20-1.0.1-rev.824b2f3.jar",
-                    "mc_versions": [
-                        "1.20",
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/aLcHfalx/versions/heA62vSK/draggable_lists-mc1.20-1.0.1-rev.824b2f3.jar",
-                    "id": "heA62vSK",
-                    "parent_id": "aLcHfalx",
-                    "hashes": {
-                        "sha512": "2cefd98cf58aef72db7d15465c0313d057542d7ee0490a69d94b8d13f7b1b08b46dc84dca043d648568518b1d905d5ca750920025e90768d680a8293d984f42b",
-                        "sha1": "90644052d1a3c87b220954bb69e0e1b82d607340"
-                    },
-                    "required_dependencies": [],
-                    "size": 93320,
-                    "date_published": "2023-08-04T13:35:25.423337Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "draggable_lists-mc1.20-1.0.1-rev.824b2f3.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6313/249/draggable_lists-mc1.20-1.0.1-rev.824b2f3.jar",
-                    "id": "6313249",
-                    "parent_id": "522697",
-                    "hashes": {
-                        "sha1": "90644052d1a3c87b220954bb69e0e1b82d607340",
-                        "md5": "6fc93236e88f27f8149ce0d86430bf88"
-                    },
-                    "required_dependencies": [],
-                    "size": 93320,
-                    "date_published": "2025-03-16T20:51:04.557Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "JSH4JJfYSn1Jqndg",
             "type": "MOD",
             "side": "SERVER",
@@ -10487,6 +10380,74 @@
             ]
         },
         {
+            "pakku_id": "If9l57YYrUbMmPv3",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "game-menu-remove-gfarb",
+                "modrinth": "gamemenuremovegfarb"
+            },
+            "name": {
+                "curseforge": "Game Menu Remove GFARB",
+                "modrinth": "Game Menu Remove GFARB"
+            },
+            "id": {
+                "curseforge": "420519",
+                "modrinth": "bKQclmIt"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
+                    "mc_versions": [
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/bKQclmIt/versions/XLS4Ub17/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
+                    "id": "XLS4Ub17",
+                    "parent_id": "bKQclmIt",
+                    "hashes": {
+                        "sha512": "b129b3b97ef231a8ff62c5276ebe67a1f16cb625bd0b8acc83ec5699a1f80434fa82469dcea4051126fc72a50d369758fe59222a2ff786efbd244a31368ae66b",
+                        "sha1": "122deb73346968f7a78cbe1e86e17759110c5cc6"
+                    },
+                    "required_dependencies": [],
+                    "size": 57110,
+                    "date_published": "2023-07-25T22:48:30.052826Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4664/631/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar",
+                    "id": "4664631",
+                    "parent_id": "420519",
+                    "hashes": {
+                        "sha1": "122deb73346968f7a78cbe1e86e17759110c5cc6",
+                        "md5": "2c45c4c4f8c506a70232d6a6d3e90843"
+                    },
+                    "required_dependencies": [],
+                    "size": 57110,
+                    "date_published": "2023-07-25T22:48:27.270Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "kaoSwOtLnOU4JE4m",
             "type": "MOD",
             "side": "BOTH",
@@ -12192,44 +12153,6 @@
                     "required_dependencies": [],
                     "size": 529053,
                     "date_published": "2026-01-09T03:28:01.417Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "B1NXkY3bedeo7iZE",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "irons-rpg-tweaks"
-            },
-            "name": {
-                "curseforge": "Iron's Rpg Tweaks"
-            },
-            "id": {
-                "curseforge": "871799"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "irons_rpg_tweaks-1.20-1.4.0.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6094/337/irons_rpg_tweaks-1.20-1.4.0.jar",
-                    "id": "6094337",
-                    "parent_id": "871799",
-                    "hashes": {
-                        "sha1": "5091b4209fa3c8f766489f1c82f9e008e93a96f4",
-                        "md5": "ab241d015ede13a4d0c0945957ca6cab"
-                    },
-                    "required_dependencies": [],
-                    "size": 290546,
-                    "date_published": "2025-01-16T22:00:21.403Z"
                 }
             ]
         },
@@ -17275,6 +17198,49 @@
             ]
         },
         {
+            "pakku_id": "PkDBahsao9GNm3Jm",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "no-realms-button"
+            },
+            "name": {
+                "modrinth": "No Realms Button"
+            },
+            "id": {
+                "modrinth": "AMMUyCdF"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "NoRealmsButton-2.0.2.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/AMMUyCdF/versions/TYRKC9pB/NoRealmsButton-2.0.2.jar",
+                    "id": "TYRKC9pB",
+                    "parent_id": "AMMUyCdF",
+                    "hashes": {
+                        "sha512": "c26196e7c41ffb87a0a82543218f6b064851cd0e20ba651d73f1b9f0a5feda60064004ee22001f12f70037da1bfebe50a118e51fece56bd3a6070dbe705051b4",
+                        "sha1": "cced789785e34bbe9d4a9e07a6f8eb90beec916e"
+                    },
+                    "required_dependencies": [],
+                    "size": 184248,
+                    "date_published": "2025-08-01T06:34:11.912442Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "LItyTo2BwDz7y7po",
             "type": "MOD",
             "side": "CLIENT",
@@ -22001,47 +21967,6 @@
                     ],
                     "size": 42469,
                     "date_published": "2025-12-24T08:03:06.613Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "J9DUNW2VgHUVRLph",
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "tt20"
-            },
-            "name": {
-                "modrinth": "TT20 (TPS Fixer)"
-            },
-            "id": {
-                "modrinth": "YS3ZignI"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "tt20-0.7.1+mc1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.4",
-                        "1.20.5"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/YS3ZignI/versions/EOiK6xJj/tt20-0.7.1+mc1.20.1.jar",
-                    "id": "EOiK6xJj",
-                    "parent_id": "YS3ZignI",
-                    "hashes": {
-                        "sha512": "cd1eb0f669071f85fcd0afd901338352b0b1c43613d3d970ca75c4bb62cc015bb7173577bd42647d17f2d567c033344ab274ba9d2d24ced050f613e3d2bea328",
-                        "sha1": "be31729552226047307e343022851c062bfae3f8"
-                    },
-                    "required_dependencies": [],
-                    "size": 49265,
-                    "date_published": "2025-09-16T19:05:54.116966Z"
                 }
             ]
         },

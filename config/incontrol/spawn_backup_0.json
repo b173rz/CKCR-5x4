@@ -1,5 +1,21 @@
 [
   {
+    "dimension":"minecraft:overworld",
+    "when":"onjoin",
+    "spawntype":"natural",
+    "mob":"irons_spellbooks:necromancer",
+    "hasstructure":true,
+    "result":"default"
+  },
+  {
+    "dimension":"minecraft:overworld",
+    "when":"onjoin",
+    "spawntype":"natural",
+    "mob":"irons_spellbooks:necromancer",
+    "biome":"minecraft:dark_forest",
+    "result":"default"
+  },
+  {
     "mob":"minecraft:witch",
     "dimension":"minecraft:overworld",
     "when":"onjoin",
@@ -57,10 +73,10 @@
   },
   {
     "dimension":"minecraft:overworld",
+    "mod":"minecraft",
     "hostile":true,
     "biome":"minecraft:dark_forest",
     "spawntype":"natural",
-    "maxlight_sky":1,
     "result":"defualt"
   },
   {

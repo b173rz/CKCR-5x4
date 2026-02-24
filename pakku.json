@@ -1,9 +1,11 @@
 {
     "name": "CRCK-5x4",
-    "version": "alpha-4",
+    "version": "alpha-4.1h1",
     "overrides": [
         "config",
-        "kubejs"
+        "kubejs",
+        "servers.dat",
+        "options.txt"
     ],
     "projects": {
         "tt20": {

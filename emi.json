@@ -1,0 +1,25 @@
+{
+  "favorites": [],
+  "lookup_history": [],
+  "craft_history": [
+    "minecraft:oak_sign",
+    "minecraft:oak_planks",
+    "minecraft:stick",
+    "minecraft:oak_trapdoor",
+    "minecraft:kjs/campfire",
+    "quark:tweaks/crafting/utility/tools/stone_sword",
+    "minecraft:spruce_slab",
+    "minecraft:spruce_planks",
+    "quark:tweaks/crafting/utility/tools/stone_pickaxe",
+    "quark:tweaks/crafting/utility/tools/stone_axe",
+    "minecraft:wooden_pickaxe",
+    "minecraft:crafting_table"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
