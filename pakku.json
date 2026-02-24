@@ -1,6 +1,6 @@
 {
     "name": "CRCK-5x4",
-    "version": "alpha-4.1h1",
+    "version": "alpha-4.2",
     "overrides": [
         "config",
         "kubejs",
