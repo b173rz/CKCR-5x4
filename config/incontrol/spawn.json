@@ -1,5 +1,21 @@
 [
   {
+    "dimension":"minecraft:overworld",
+    "when":"onjoin",
+    "spawntype":"natural",
+    "mob":"irons_spellbooks:necromancer",
+    "hasstructure":true,
+    "result":"default"
+  },
+  {
+    "dimension":"minecraft:overworld",
+    "when":"onjoin",
+    "spawntype":"natural",
+    "mob":"irons_spellbooks:necromancer",
+    "biome":"minecraft:dark_forest",
+    "result":"default"
+  },
+  {
     "mob":"minecraft:witch",
     "dimension":"minecraft:overworld",
     "when":"onjoin",

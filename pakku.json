@@ -5,14 +5,27 @@
         "config",
         "kubejs"
     ],
-    "projects":
-    {
-        "tt20":{"side":"SERVER"},
-        "toadlib":{"side":"CLIENT"},
-        "palladium":{"side":"CLIENT"},
-        "spark":{"side":"BOTH"},
-        "geckolib":{"side":"BOTH"},
-        "creativecore":{"side":"BOTH"},
-        "pretty-rain":{"side":"BOTH"}
+    "projects": {
+        "tt20": {
+            "side": "SERVER"
+        },
+        "toadlib": {
+            "side": "CLIENT"
+        },
+        "palladium": {
+            "side": "CLIENT"
+        },
+        "spark": {
+            "side": "BOTH"
+        },
+        "geckolib": {
+            "side": "BOTH"
+        },
+        "creativecore": {
+            "side": "BOTH"
+        },
+        "pretty-rain": {
+            "side": "BOTH"
+        }
     }
 }

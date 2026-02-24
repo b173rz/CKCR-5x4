@@ -1,0 +1,9 @@
+#Maximum number of Lodestones that can be bound to a single compass
+#0 = No limit (default)
+#1 = Vanilla behavior
+#2-2147483647 = Custom limit
+#Range: > 0
+maxLodestones = 0
+#Use modern Lodestone recipe, Iron Ingot instead of Netherite Ingot
+useModernLodestoneRecipe = true
+
