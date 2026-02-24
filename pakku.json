@@ -2,6 +2,17 @@
     "name": "CRCK-5x4",
     "version": "alpha-3.0",
     "overrides": [
-        "config"
-    ]
+        "config",
+        "kubejs"
+    ],
+    "projects":
+    {
+        "tt20":{"side":"SERVER"},
+        "toadlib":{"side":"CLIENT"},
+        "palladium":{"side":"CLIENT"},
+        "spark":{"side":"BOTH"},
+        "geckolib":{"side":"BOTH"},
+        "creativecore":{"side":"BOTH"},
+        "pretty-rain":{"side":"BOTH"}
+    }
 }

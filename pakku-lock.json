@@ -7598,7 +7598,7 @@
         {
             "pakku_id": "b6svNvcG2ysgmzNS",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "creativecore",
                 "modrinth": "creativecore"
@@ -10525,7 +10525,7 @@
         {
             "pakku_id": "kaoSwOtLnOU4JE4m",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "geckolib"
             },
@@ -23718,7 +23718,7 @@
         {
             "pakku_id": "eYoNUYOAiwVGWG7D",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "toadlib",
                 "modrinth": "toadlib"
@@ -26637,7 +26637,7 @@
         {
             "pakku_id": "9nyySYgrH9WtsFGp",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "spark",
                 "modrinth": "spark"

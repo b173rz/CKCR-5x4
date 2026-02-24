@@ -1,0 +1,172 @@
+{
+  "config_version": "2.0.17",
+  "config_datetime": "2026-02-21_22-45-06",
+  "general": {
+    "disable_all_structures": false,
+    "prevent_structure_overlap": false,
+    "enable_global_spacing_and_separation_modifier": true,
+    "global_spacing_and_separation_modifier": 4.0
+  },
+  "structure_namespaces": [
+    {
+      "name": "aether",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "cataclysm",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 9300,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "ctov",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0,
+      "override_global_flatness_check": true,
+      "enable_flatness_check": true,
+      "flatness_check_allow_non_solid_blocks": false
+    },
+    {
+      "name": "global",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": false,
+      "min_distance_from_world_center": 9000,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "minecraft",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    },
+    {
+      "name": "respawnobelisks",
+      "is_disabled": false,
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 0,
+      "max_distance_from_world_center": 0
+    }
+  ],
+  "structures": [
+    {
+      "name": "respawnobelisks:obelisk_island",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "#minecraft:is_nether"
+      ],
+      "blacklisted_biomes": [],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "respawnobelisks:obelisk_ship",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "#minecraft:is_end"
+      ],
+      "blacklisted_biomes": [],
+      "step": "raw_generation",
+      "terrain_adaptation": "none"
+    },
+    {
+      "name": "respawnobelisks:plains_obelisk",
+      "is_disabled": false,
+      "whitelisted_biomes": [
+        "minecraft:forest",
+        "#forge:is_plains",
+        "#forge:is_overworld",
+        "#minecraft:is_overworld"
+      ],
+      "blacklisted_biomes": [
+        "minecraft:plains"
+      ],
+      "step": "surface_structures",
+      "terrain_adaptation": "beard_thin",
+      "override_global_biome_check": false,
+      "enable_biome_check": true,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "",
+        "#minecraft:is_river",
+        "#c:river",
+        "#minecraft:is_ocean",
+        "#c:ocean"
+      ]
+    }
+  ],
+  "structure_sets": [
+    {
+      "spacing": 30,
+      "separation": 20,
+      "name": "betterdeserttemples:desert_temples",
+      "salt": 92746251,
+      "frequency": 0.998,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "betterdeserttemples:desert_temple": 1
+      }
+    },
+    {
+      "spacing": 100,
+      "separation": 2,
+      "name": "more_critters:abandoned_bunbug_farm",
+      "salt": 1714190824,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "more_critters:abandoned_bunbug_farm": 1
+      }
+    },
+    {
+      "spacing": 55,
+      "separation": 2,
+      "name": "more_critters:collector_wagon_badlands",
+      "salt": 887282644,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "more_critters:collector_wagon_badlands": 1
+      }
+    },
+    {
+      "spacing": 15,
+      "separation": 12,
+      "name": "respawnobelisks:obelisk_island",
+      "salt": 1781597380,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "respawnobelisks:obelisk_island": 1
+      }
+    },
+    {
+      "spacing": 40,
+      "separation": 30,
+      "name": "respawnobelisks:obelisk_ship",
+      "salt": 1594567180,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "respawnobelisks:obelisk_ship": 1
+      }
+    },
+    {
+      "spacing": 32,
+      "separation": 24,
+      "name": "respawnobelisks:plains_obelisk",
+      "salt": 1694767080,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "structure_weights": {
+        "respawnobelisks:plains_obelisk": 1
+      }
+    }
+  ]
+}

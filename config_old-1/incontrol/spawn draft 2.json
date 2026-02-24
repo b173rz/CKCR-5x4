@@ -1,0 +1,59 @@
+[
+  {
+
+  }
+  {
+    "mob":"minecraft:wolf",
+    "when":"onjoin",
+    "result":"default"
+  },
+  {
+    "mob":"windswept:chilled",
+    "when":"onjoin",
+    "result":"deny"
+  },
+  {
+    "mob":"minecraft:creeper",
+    "biome":"minecraft:lush_caves",
+    "when":"onjoin",
+    "result":"defualt"
+  },
+  {
+    "hostile":true,
+    "mod":"tconstruct",
+    "dimension":"minecraft:overworld",
+    "structure":["tconstruct:clay_island","tconstruct:sky_slime_island","tconstruct:earth_slime_island"],
+    "when": "onjoin",
+    "result":"default"
+  },
+  {
+    "dimension":"minecraft:overworld",
+    "structure":["tconstruct:clay_island","tconstruct:sky_slime_island","tconstruct:earth_slime_island"],
+    "when": "onjoin",
+    "result":"deny"
+  },
+  {
+    "mod":"minecraft",
+    "hostile":true,
+    "dimension":"minecraft:overworld",
+    "hasstructure":true,
+    "when": "onjoin",
+    "result":"default"
+  },
+  {
+    "mod":["minecraft","embers"],
+    "maxheight":-15,
+    "hostile":true,
+    "when":"onjoin",
+    "hasstructure":false,
+    "dimension":"minecraft:overworld",
+    "result":"defualt"
+  },
+  {
+    "minheight":-14,
+    "mod":"minecraft",
+    "hostile":true,
+    "dimension":"minecraft:overworld",
+    "result":"deny"
+  }
+]
