@@ -1,10 +1,12 @@
 [
   {
-    "mob":"minecraft:witch",
-    "dimension":"minecraft:overworld",
-    "when":"onjoin",
-    "spawntype":"natural",
-    "result":"deny"
+    "mob":"#c:bosses",
+    "result":"default"
+  },
+  {
+    "hostile":true,
+    "hasstructure":true,
+    "result":"default"
   },
   {
     "mob":["#minecraft:raiders","#minecraft:illager"],
@@ -12,63 +14,37 @@
   },
   {
     "dimension":"minecraft:overworld",
-    "mob":"minecraft:creeper",
     "biome":"minecraft:lush_caves",
-    "when":"onjoin",
-    "spawntype":"natural",
-    "result":"default"
-  },
-  {
-    "dimension":"minecraft:overworld",
-    "when":"onjoin",
-    "spawntype":"natural",
-    "mob":"#minecraft:undead",
-    "maxheight":63,
-    "minheight":-10,
-    "seesky":false,
-    "blocktest":
-      {
-        "tag":"minecraft:stone",
-        "distbelow":1
-      },
-    "result":"default"
-  },
-  {
-    "dimension":"minecraft:overworld",
-    "when":"onjoin",
-    "spawntype":"natural",
-    "mob":"#minecraft:undead",
-    "maxheight":45,
-    "minheight":-10,
-    "seesky":false,
-    "blocktest":
-      {
-        "tag":"c:stone",
-        "distbelow":1
-      },
-    "result":"default"
-  },
-  {
-    "dimension":"minecraft:overworld",
-    "mod":"minecraft",
     "hostile":true,
-    "maxheight":3,
-    "result":"default"
-  },
-  {
-    "dimension":"minecraft:overworld",
-    "hostile":true,
-    "biome":"minecraft:dark_forest",
-    "spawntype":"natural",
-    "maxlight_sky":1,
-    "result":"defualt"
-  },
-  {
-    "mod":"minecraft",
-    "dimension":"minecraft:overworld",
-    "hostile":true,
-    "minheight":-11,
+    "when":"onjoin",
     "spawntype":"natural",
     "result":"deny"
-  }
+  },
+  {
+    "mob":["minecraft:witch","irons_spellbooks:necromancer","#minecraft:undead","minecraft:slime"],
+    "minheight":59,
+    "biome":["minecraft:swamp","minecraft:dark_forest"],
+    "spawntype":"natural",
+    "when":"onjoin",
+    "hostile":true,
+    "result":"default"
+  },
+  {
+    "mod":"minecraft",
+    "dimension":"minecraft:overworld",
+    "when":"onjoin",
+    "maxheight":53,
+    "hostile":true,
+    "spawntype":"natural",
+    "result":"default"
+  },
+  {
+    "mod":"minecraft",
+    "dimension":"minecraft:overworld",
+    "spawntype":"natural",
+    "minheight":54,
+    "hostile":true,
+    "result":"deny"
+  },
+
 ]

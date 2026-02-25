@@ -82,9 +82,5 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
-  },
-  "jade_vs": {
-    "ship_mass": true,
-    "block_mass": true
   }
 }

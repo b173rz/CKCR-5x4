@@ -1,0 +1,17 @@
+{
+  "__comment": "This is a blocklist for the target of Jade. You can add registry ids to the \"values\" list. Restart the game to apply changes.",
+  "values": [
+    "minecraft:barrier"
+        "minecraft:barrier",
+    "more_grass:grass_1",
+    "more_grass:grass_2",
+    "more_grass:grass_3",
+    "more_grass:grass_4",
+    "more_grass:grass_5",
+    "more_grass:e_grass_1",
+    "more_grass:e_grass_2",
+    "more_grass:e_grass_3",
+    "more_grass:e_grass_4",
+    "more_grass:e_grass_5"
+  ]
+}

@@ -1,0 +1,17 @@
+#CPU worker threads; min=2.
+#Range: 2 ~ 64
+threads = 2
+#IO worker threads; min=3
+#Range: 3 ~ 64
+ioThreads = 3
+#CPU queue capacity (bounded).
+#Range: 64 ~ 100000
+cpuQueue = 2048
+#IO queue capacity (bounded).
+#Range: 64 ~ 100000
+ioQueue = 1024
+#Redirect Util.ioPool() to QuantumChunks IO pool.
+redirectIo = true
+#Redirect lighting tasks (NOT recommended with Starlight).
+redirectLighting = false
+

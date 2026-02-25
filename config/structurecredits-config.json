@@ -22,6 +22,8 @@
   ],
   "dontShow": [
     "minecraft:plains_village",
-    "minecraft:desert_village"
+    "minecraft:desert_village",
+    "betterdungeons:spider_dungeon",
+    "betterdungeons:zombie_dungeon"
   ]
 }
