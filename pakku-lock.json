@@ -9103,67 +9103,6 @@
             ]
         },
         {
-            "pakku_id": "guzFivnUS8CSu4KQ",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "fragmentum",
-                "modrinth": "fragmentum"
-            },
-            "name": {
-                "curseforge": "Fragmentum (Forge)",
-                "modrinth": "Fragmentum"
-            },
-            "id": {
-                "curseforge": "1123970",
-                "modrinth": "49C5QgTK"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "fragmentum-forge-1.20.1-1.1.0.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/49C5QgTK/versions/YlihGfho/fragmentum-forge-1.20.1-1.1.0.jar",
-                    "id": "YlihGfho",
-                    "parent_id": "49C5QgTK",
-                    "hashes": {
-                        "sha512": "6c0833ae7f6780138053985ca479896cb6d8e8959fd4e38d59ce717744ba34092fd50e56f27e481cb3ea3c59f2e1196b3fbbaafacfbaa9fd9963a4c7a1339da4",
-                        "sha1": "41ded356b48454443d550964c9304a9ee282abbd"
-                    },
-                    "required_dependencies": [],
-                    "size": 1690477,
-                    "date_published": "2026-01-26T23:40:35.078471Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "fragmentum-forge-1.20.1-1.1.0.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7533/135/fragmentum-forge-1.20.1-1.1.0.jar",
-                    "id": "7533135",
-                    "parent_id": "1123970",
-                    "hashes": {
-                        "sha1": "41ded356b48454443d550964c9304a9ee282abbd",
-                        "md5": "db45e7a49125562744e747e4917e8cc5"
-                    },
-                    "required_dependencies": [],
-                    "size": 1690477,
-                    "date_published": "2026-01-26T23:45:17.957Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "JL4aYc9sZsU9DUHL",
             "type": "MOD",
             "slug": {
