@@ -46,5 +46,11 @@
     "hostile":true,
     "result":"deny"
   },
+  {
+    "mob":"irons_spellbooks:necromancer",
+    "dimension":"minecraft:overworld",
+    "spawntype":"natural",
+    "result":"deny"
+  }
 
 ]
